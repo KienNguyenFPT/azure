@@ -11,11 +11,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/students")
 public class StudentController {
+    /*
     private final StudentServiceImpl studentService;
 
     public StudentController(StudentServiceImpl studentService) {
         this.studentService = studentService;
     }
+
+     */
 
     @GetMapping()
     public String hello() {
